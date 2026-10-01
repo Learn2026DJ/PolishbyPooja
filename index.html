@@ -1,32 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nail Salon Poster</title>
-     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18008847718"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-18008847718');
-    </script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        img {
-            width: 100vw;   /* full width of screen */
-            height: 100vh;  /* full height of screen */
-            object-fit: contain; /* keeps full image visible */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PolishbyPooja - Nail Salon</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fff5f8;
+      color: #333;
+      background-image: url('floral-bg.jpg'); /* Add a floral background */
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    header {
+      background: rgba(255, 182, 193, 0.9);
+      padding: 30px;
+      text-align: center;
+      border-bottom: 5px solid #e75480;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #b03060;
+      font-family: 'Georgia', serif;
+    }
+    header p {
+      font-size: 1.3em;
+      color: #444;
+    }
+    nav {
+      background: #e75480;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #b03060;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #e75480;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      flex: 1 1 250px;
+      background: #ffe4ec;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .service img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #e75480;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-    <img src="poster.jpeg" alt="Nail Salon Poster">
+  <header>
+    <h1>PolishbyPooja</h1>
+    <p> Nails , Beauty and Hair </p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <img src="pedicure.jpg" alt="Pedicure">
+        <h3>Pedicure</h3>
+        <p>A relaxing foot treatment that includes nail trimming, cuticle care, exfoliation, and polish for healthy and beautiful feet.</p>
+      </div>
+      <div class="service">
+        <img src="manicure.jpg" alt="Manicure">
+        <h3>Manicure</h3>
+        <p>A treatment that cleans, shapes, and beautifies your fingernails and cuticles for a neat and polished look.</p>
+      </div>
+      <div class="service">
+        <img src="gelpolish.jpg" alt="Gel Polish">
+        <h3>Gel Polish & Nail Care</h3>
+        <p>Essential treatments that strengthen, protect, and maintain the health of your natural nails.</p>
+      </div>
+      <div class="service">
+        <img src="facial.jpeg" alt="Facials">
+        <h3>Waxing, Threading & Facials</h3>
+        <p>Complete beauty care including waxing, threading, cleanup, and facials for glowing skin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At PolishbyPooja, we believe in empowering women through beauty and self-care. Our salon offers a modern, welcoming environment where you can relax and rejuvenate.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Call us: <a href="tel:08623090348">08623090348</a></p>
+    <p>Book your appointment today and experience the best in nail and beauty care!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 PolishbyPooja Nail Salon. All rights reserved.</p>
+  </footer>
 </body>
 </html>
